@@ -47,9 +47,6 @@ class ItemRepositoryTest {
 //        transactionManager.rollback(status);
     }
 
-    // 데이터가 롤백되지 않고 유지 됨.
-    @Commit
-    @Transactional
     @Test
     void save() {
         //given
